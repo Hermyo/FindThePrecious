@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Aniron;
+    src: url('polices/pete-klassen_aniron/anicb___.ttf') format("truetype");          
+}
+
+@font-face {
+    font-family: "Party Business";
+    src: url('polices/nancy-lorenz_party-business/partybusiness.ttf') format("truetype");
+}
+
+/* NavBar */
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    font-family: Aniron;
+    font-size: 15px;
+}
+
+ul li:hover {
+    text-decoration: white underline;
+}
+
+a:hover {
+    color: white;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+/* Carousel */
+
+h3, p {
+    color: rgb(255, 38, 0);
+    font-family: "Party Business";
+}
+
+h3 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+/* Fellows */
+
+.fellows ul {
+    list-style-type: none;
+}
+
+.fellows li {
+    display: inline;
+}
+
+.fellows {
+    text-align: center;
+}
+
+.badge {
+    background-color: transparent;
+    color: rgb(78, 75, 75);
+}
+
+.fellows {
+    font-family: Aniron;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.badge {
+    font-size: 10px;
+}
+
+.badge:hover {
+    color: #f3400a;
+}
+
+/* Thumbnails */
+
+.img-thumbnail {
+    background-color: black;
+    text-align: center;
+    opacity: 0.5;
+    position: relative;
+}
+
+.img-thumbnail p {
+    font-size: 35px;
+    text-align: left;
+    color: white;
+}
+
+.nombre {
+    color: orangered;
+}
+
+.rewardGandalf {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 100%;
+}
+
+.nameGandalf {
+    position: absolute;
+    bottom: 45%;
+    left: 30%;
+    width: 100%;
+}
+
+.rewardAragorn {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    width: 100%;
+}
+
+.nameAragorn {
+    position: absolute;
+    bottom: 45%;
+    left: 35%;
+    width: 100%;
+}
+
+.rewardGimli {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    width: 100%; 
+}
+
+.nameGimli {
+    position: absolute;
+    bottom: 45%;
+    left: 40%;
+    width: 100%;
+    text-decoration: orangered line-through;
+}
+
+/* survol souris */
+
+.img-thumbnail:hover {
+    opacity: 1;
+}
+
+.img-thumbnail:hover .rewardGandalf {
+    visibility: hidden;
+}
+
+.img-thumbnail:hover .nameGandalf {
+    visibility: hidden;
+}
+
+.img-thumbnail:hover .rewardAragorn {
+    visibility: hidden;
+}
+
+.img-thumbnail:hover .nameAragorn {
+    visibility: hidden;
+}
+
+.img-thumbnail:hover .rewardGimli {
+    visibility: hidden;
+}
+
+.img-thumbnail:hover .nameGimli {
+    visibility: hidden;
+}
