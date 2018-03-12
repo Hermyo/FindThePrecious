@@ -8,6 +8,11 @@
     src: url('polices/nancy-lorenz_party-business/partybusiness.ttf') format("truetype");
 }
 
+@font-face {
+    font-family: "Tengwar Annatar";
+    src: url('polices/tengwar_annatar/tngani.ttf') format("truetype");
+}
+
 /* NavBar */
 
 nav li {
@@ -77,6 +82,11 @@ h2 {
 
 .badge:hover {
     color: #f3400a;
+}
+
+h2 span {
+    font-family: "Tengwar Annatar";
+    color: orange;
 }
 
 /* Thumbnails */
